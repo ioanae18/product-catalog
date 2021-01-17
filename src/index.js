@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { findByLabelText } from '@testing-library/react';
+// import { findByLabelText } from '@testing-library/react';
 
 ReactDOM.render(
   <React.StrictMode>
