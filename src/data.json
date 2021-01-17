@@ -6,7 +6,7 @@
             "image": "/images/dress1.jpg",
             "description": "This is for all the latest trends",
             "price": 19,
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["XS", "S"]
         },
 
         {
@@ -15,7 +15,7 @@
             "image": "/images/dress2.jpg",
             "description": "This is for all the latest trends",
             "price": 19,
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["M", "S","L"]
         },
 
         {
@@ -24,7 +24,7 @@
             "image": "/images/dress3.jpg",
             "description": "This is for all the latest trends",
             "price": 19,
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["S", "M", "XS", "XL", "XXL"]
         },
 
         {
@@ -33,7 +33,7 @@
             "image": "/images/dress4.jpg",
             "description": "This is for all the latest trends",
             "price": 19,
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["S", "M"]
         },
 
         {
@@ -42,7 +42,7 @@
             "image": "/images/dress5.jpg",
             "description": "This is for all the latest trends",
             "price": 10.9,
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["XS", "XL", "XXL"]
         },
 
         {
@@ -51,7 +51,7 @@
             "image": "/images/dress6.jpg",
             "description": "This is for all the latest trends",
             "price": 49.9,
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["M"]
         }
     ]
 }
