@@ -2,43 +2,43 @@
     "products": [
         {
             "_id": "dress1",
-            "title": "Dress 1",
+            "title": "Elegant night dress",
             "image": "/images/dress1.jpg",
             "description": "This is for all the latest trends",
-            "price": 19,
+            "price": 59.9,
             "availableSizes": ["XS", "S"]
         },
 
         {
             "_id": "dress2",
-            "title": "Dress 2",
+            "title": "Summer dress",
             "image": "/images/dress2.jpg",
             "description": "This is for all the latest trends",
-            "price": 19,
+            "price": 20.9,
             "availableSizes": ["M", "S","L"]
         },
 
         {
             "_id": "dress3",
-            "title": "Dress 3",
+            "title": "Elegant summer dress",
             "image": "/images/dress3.jpg",
             "description": "This is for all the latest trends",
-            "price": 19,
+            "price": 18.9,
             "availableSizes": ["S", "M", "XS", "XL", "XXL"]
         },
 
         {
             "_id": "dress4",
-            "title": "Dress 4",
+            "title": "Elegant ocasion dress",
             "image": "/images/dress4.jpg",
             "description": "This is for all the latest trends",
-            "price": 19,
+            "price": 35.9,
             "availableSizes": ["S", "M"]
         },
 
         {
             "_id": "dress5",
-            "title": "Frill mini dress in yellow polka dot",
+            "title": "Mini dress",
             "image": "/images/dress5.jpg",
             "description": "This is for all the latest trends",
             "price": 10.9,
@@ -47,7 +47,7 @@
 
         {
             "_id": "dress6",
-            "title": "Midi tea dress in blue and red spot",
+            "title": "Midi floral dress in red spot",
             "image": "/images/dress6.jpg",
             "description": "This is for all the latest trends",
             "price": 49.9,

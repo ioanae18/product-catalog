@@ -1,19 +1,45 @@
 //feature-1
 import { render } from "@testing-library/react";
 import React from "react";
+import Cart from "./components/Cart";
 import Filters from "./components/Filters";
 import Products from "./components/Products";
 import data from "./data.json";
 
 class App extends React.Component {
+
   constructor(){
     super();
     this.state = {
       products: data.products,
+      cartItems: [],
       size: "",
       sort: "",
     };
   }
+
+  removeFromCart = (product) => {
+    const cartItems = this.state.cartItems.slice();
+    this.setState({
+        cartItems: cartItems.filter((x) => x._id !== product._id),
+    });    
+  };
+
+  addToCart = (product) =>{
+    const cartItems = this.state.cartItems.slice();
+    let alreadyInCart = false;
+    cartItems.forEach(items => {
+      if(items._id === product._id){
+        items.count++;
+        alreadyInCart = true;
+      }
+    });
+    if(!alreadyInCart){
+      // instead of having products, I have the fields of products
+      cartItems.push({...product, count: 1})
+    }
+    this.setState({cartItems});
+  };
 
   sortProducts = (event) => {
     //implement
@@ -68,9 +94,14 @@ class App extends React.Component {
                 filterProducts = {this.filterProducts}
                 sortProducts = {this.sortProducts}
               ></Filters>
-              <Products products = {this.state.products}></Products> 
+              <Products products = {this.state.products} 
+                    addToCart = {this.addToCart} >
+              </Products> 
            </div>
-           <div className="sidebar"> Cart Items </div>
+           <div className="sidebar">
+              <Cart cartItems = {this.state.cartItems} 
+                    removeFromCart = {this.removeFromCart}/>
+              </div>
         </div>
       </main>
       <footer>
