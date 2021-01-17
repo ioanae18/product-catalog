@@ -6,8 +6,8 @@ export default class Products extends Component {
         return (
             <div>
                 <ul className="products">
-                    {this.props.products.map(product => (
-                        <li ley={product._id}>
+                    {this.props.products.map((product) => (
+                        <li key={product._id}>
                             <div className="product">
                                 <a href ={"#" + product._id}>
                                {/* if there is no image, it shows the title  */}
