@@ -4,7 +4,7 @@
             "_id": "dress1",
             "title": "Elegant night dress",
             "image": "/images/dress1.jpg",
-            "description": "This is for all the latest trends",
+            "description": "This dress was designed to be your go-to summer dress because it will keep you cozy and stylish all day long. It is loose enough to be comfortable without seeming baggy, and it is snug enough to be captivating.",
             "price": 59.9,
             "availableSizes": ["XS", "S"]
         },
@@ -13,7 +13,7 @@
             "_id": "dress2",
             "title": "Summer dress",
             "image": "/images/dress2.jpg",
-            "description": "This is for all the latest trends",
+            "description": "This dress was designed to be your go-to summer dress because it will keep you cozy and stylish all day long. It is loose enough to be comfortable without seeming baggy, and it is snug enough to be captivating.",
             "price": 20.9,
             "availableSizes": ["M", "S","L"]
         },
@@ -22,7 +22,7 @@
             "_id": "dress3",
             "title": "Elegant summer dress",
             "image": "/images/dress3.jpg",
-            "description": "This is for all the latest trends",
+            "description": "This dress was designed to be your go-to summer dress because it will keep you cozy and stylish all day long. It is loose enough to be comfortable without seeming baggy, and it is snug enough to be captivating.",
             "price": 18.9,
             "availableSizes": ["S", "M", "XS", "XL", "XXL"]
         },
@@ -31,7 +31,7 @@
             "_id": "dress4",
             "title": "Elegant ocasion dress",
             "image": "/images/dress4.jpg",
-            "description": "This is for all the latest trends",
+            "description": "This dress was designed to be your go-to summer dress because it will keep you cozy and stylish all day long. It is loose enough to be comfortable without seeming baggy, and it is snug enough to be captivating.",
             "price": 35.9,
             "availableSizes": ["S", "M"]
         },
@@ -40,7 +40,7 @@
             "_id": "dress5",
             "title": "Mini dress",
             "image": "/images/dress5.jpg",
-            "description": "This is for all the latest trends",
+            "description": "This dress was designed to be your go-to summer dress because it will keep you cozy and stylish all day long. It is loose enough to be comfortable without seeming baggy, and it is snug enough to be captivating.",
             "price": 10.9,
             "availableSizes": ["XS", "XL", "XXL"]
         },
@@ -49,7 +49,7 @@
             "_id": "dress6",
             "title": "Midi floral dress in red spot",
             "image": "/images/dress6.jpg",
-            "description": "This is for all the latest trends",
+            "description": "This dress was designed to be your go-to summer dress because it will keep you cozy and stylish all day long. It is loose enough to be comfortable without seeming baggy, and it is snug enough to be captivating.",
             "price": 49.9,
             "availableSizes": ["M"]
         }
