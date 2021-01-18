@@ -114,7 +114,7 @@ class App extends React.Component {
         </div>
       </main>
       <footer>
-        All rights reserved.
+        All rights reserved. @Ivan Emilia-Ioana
       </footer>
     </div>
   );
