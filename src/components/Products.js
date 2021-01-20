@@ -105,41 +105,6 @@ import {addToCart} from '../actions/cartActions';
                 
                 </Fade>
 
-                {/* {
-                    product && <Modal isOpen = {true} onRequestClose = {this.closeModal}>
-                        <Zoom>
-                            <button className="close-modal" onClick = {this.closeModal}> x </button>
-                            <div className="product-details">
-                                <img src = {product.image} alt = {product.title}></img>
-                                <div className ="product-detail-descripton"> 
-                                    <p>
-                                        <strong> {product.title} </strong>
-                                    </p>
-                                    <p>
-                                        {product.description}
-                                    </p>
-                                    <p>
-                                        Available sizes: {" "}
-                                        {product.availableSizes.map((x) => (
-                                            <span> {" "} <button className = "button" > {x} </button> </span>
-                                        ))}
-                                    </p>
-                                    <div className ="product-price">
-                                        <div>
-                                            {formatCurrency(product.price)}
-                                        </div>
-                                        <button className = "button primary" onClick = {() => {
-                                            this.props.addToCart(product);
-                                            this.closeModal();
-                                        }}>
-                                            Add to Cart
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </Zoom>
-                    </Modal>
-                } */}
                 
             </div>
         )
