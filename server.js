@@ -22,14 +22,16 @@ const Product = mongoose.model("products", new mongoose.Schema({
     availableSizes: [String],
 }));
 
+//get list of products
 app.get("/api/products", async (req, res) => {
     const products = await Product.find({});
     //send back to the clients
     res.send(products);
 });
 
+//create a new product inside DB
 app.post("/api/products", async (req,res) =>{
-    const newProduct = newProduct(req.body);
+    const newProduct = Product(req.body);
     const savedProduct = await newProduct.save();
     res.send(savedProduct);
 });
